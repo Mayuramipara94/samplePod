@@ -24,7 +24,8 @@ TODO: Add long description of the pod here.
 
   s.homepage         = 'https://github.com/Mayuramipara94/samplePod'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
-  s.screenshots  = "https://github.com/Mayuramipara94/samplePod/tree/master/Images/screen1.png", "https://github.com/Mayuramipara94/samplePod/tree/master/Images/screen2.png"
+  
+  s.screenshots  = "https://github.com/Mayuramipara94/samplePod/tree/master/Images/single1.gif"
 
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Mayuramipara94' => 'mayur.amipara@coruscate.co.in' }
