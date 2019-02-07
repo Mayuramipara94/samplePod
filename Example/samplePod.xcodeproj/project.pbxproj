@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		34EE0003220C321D00A0282E /* screen2.png in Resources */ = {isa = PBXBuildFile; fileRef = 34EE0001220C321D00A0282E /* screen2.png */; };
+		34EE0004220C321D00A0282E /* screen1.png in Resources */ = {isa = PBXBuildFile; fileRef = 34EE0002220C321D00A0282E /* screen1.png */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
@@ -28,6 +30,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		34EE0001220C321D00A0282E /* screen2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screen2.png; sourceTree = "<group>"; };
+		34EE0002220C321D00A0282E /* screen1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screen1.png; sourceTree = "<group>"; };
 		409B3DBB03E47B527F413E42 /* Pods_samplePod_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_samplePod_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5406161382C41A4A6CD97494 /* Pods-samplePod_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-samplePod_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-samplePod_Example/Pods-samplePod_Example.release.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* samplePod_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = samplePod_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -80,9 +84,20 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		34EE0000220C312D00A0282E /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				34EE0001220C321D00A0282E /* screen2.png */,
+				34EE0002220C321D00A0282E /* screen1.png */,
+			);
+			name = Images;
+			path = ../Images;
+			sourceTree = "<group>";
+		};
 		607FACC71AFB9204008FA782 = {
 			isa = PBXGroup;
 			children = (
+				34EE0000220C312D00A0282E /* Images */,
 				607FACF51AFB993E008FA782 /* Podspec Metadata */,
 				607FACD21AFB9204008FA782 /* Example for samplePod */,
 				607FACE81AFB9204008FA782 /* Tests */,
@@ -248,6 +263,8 @@
 				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
+				34EE0003220C321D00A0282E /* screen2.png in Resources */,
+				34EE0004220C321D00A0282E /* screen1.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

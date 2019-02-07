@@ -24,12 +24,16 @@ TODO: Add long description of the pod here.
 
   s.homepage         = 'https://github.com/Mayuramipara94/samplePod'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+  s.screenshots  = "https://github.com/Mayuramipara94/samplePod/tree/master/Images/screen1.png", "https://github.com/Mayuramipara94/samplePod/tree/master/Images/screen2.png"
+
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Mayuramipara94' => 'mayur.amipara@coruscate.co.in' }
   s.source           = { :git => 'https://github.com/Mayuramipara94/samplePod.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
+  s.pod_target_xcconfig = { "SWIFT_VERSION" => "4.2" }
+  s.requires_arc = true
 
   s.source_files = 'samplePod/Classes/**/*'
   
