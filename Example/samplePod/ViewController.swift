@@ -10,8 +10,6 @@ import UIKit
 import samplePod
 
 class ViewController: UIViewController {
-    
-    let tempString = "12346789"
 
     override func viewDidLoad() {
         super.viewDidLoad()
