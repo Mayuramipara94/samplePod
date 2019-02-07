@@ -174,24 +174,6 @@ extension String {
         
         return false
     }
-    
 }
 
-// Set Color for Specific string inside string
-extension NSMutableAttributedString{
-    
-    public func setColorForText(_ textToFind: String, with color: UIColor) {
-        let range = self.mutableString.range(of: textToFind, options: .caseInsensitive)
-        if range.location != NSNotFound {
-            addAttribute(NSAttributedString.Key.foregroundColor, value: color, range: range)
-        }
-    }
-    
-    public func setFontForText(_ textToFind: String, with font: UIFont) {
-        let range = self.mutableString.range(of: textToFind, options: .caseInsensitive)
-        if range.location != NSNotFound {
-            addAttribute(NSAttributedString.Key.font, value: font, range: range)
-        }
-    }
-}
 
