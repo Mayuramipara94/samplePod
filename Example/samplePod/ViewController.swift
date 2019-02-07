@@ -7,12 +7,17 @@
 //
 
 import UIKit
+import samplePod
 
 class ViewController: UIViewController {
+    
+    let tempString = "12346789"
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        let nnn = tempString.remove
     }
 
     override func didReceiveMemoryWarning() {
