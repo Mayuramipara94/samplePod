@@ -24,6 +24,7 @@ pod 'samplePod'
 
 Mayuramipara94, mayur.amipara@coruscate.co.in
 
+## Description
 public func toDouble() -> Double? {
         let formatter = NumberFormatter()
         formatter.numberStyle = .decimal
