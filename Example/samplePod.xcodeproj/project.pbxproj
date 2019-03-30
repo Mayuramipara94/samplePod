@@ -7,6 +7,82 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		34912D6B224F786400D56775 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34912D02224F786300D56775 /* AppDelegate.swift */; };
+		34912D6C224F786400D56775 /* ApplicationData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34912D03224F786300D56775 /* ApplicationData.swift */; };
+		34912D6D224F786400D56775 /* MMChatAttachmentInCommingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34912D07224F786300D56775 /* MMChatAttachmentInCommingCell.swift */; };
+		34912D6E224F786400D56775 /* MMChatAttachmentInCommingCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 34912D08224F786300D56775 /* MMChatAttachmentInCommingCell.xib */; };
+		34912D6F224F786400D56775 /* MMChatInCommingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34912D09224F786300D56775 /* MMChatInCommingCell.swift */; };
+		34912D70224F786400D56775 /* MMChatInCommingCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 34912D0A224F786300D56775 /* MMChatInCommingCell.xib */; };
+		34912D71224F786400D56775 /* MMChatLogCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34912D0C224F786300D56775 /* MMChatLogCell.swift */; };
+		34912D72224F786400D56775 /* MMChatLogCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 34912D0D224F786300D56775 /* MMChatLogCell.xib */; };
+		34912D73224F786400D56775 /* MMChatCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34912D0E224F786300D56775 /* MMChatCell.swift */; };
+		34912D74224F786400D56775 /* MMChatCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 34912D0F224F786300D56775 /* MMChatCell.xib */; };
+		34912D75224F786400D56775 /* MMChatOutAttachmentOutGoingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34912D11224F786300D56775 /* MMChatOutAttachmentOutGoingCell.swift */; };
+		34912D76224F786400D56775 /* MMChatOutAttachmentOutGoingCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 34912D12224F786300D56775 /* MMChatOutAttachmentOutGoingCell.xib */; };
+		34912D77224F786400D56775 /* MMChatOutGoingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34912D13224F786300D56775 /* MMChatOutGoingCell.swift */; };
+		34912D78224F786400D56775 /* MMChatOutGoingCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 34912D14224F786300D56775 /* MMChatOutGoingCell.xib */; };
+		34912D79224F786400D56775 /* SelfieCornerCommentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34912D16224F786300D56775 /* SelfieCornerCommentCell.swift */; };
+		34912D7A224F786400D56775 /* SelfieCornerCommentCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 34912D17224F786300D56775 /* SelfieCornerCommentCell.xib */; };
+		34912D7B224F786400D56775 /* MMChatController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34912D18224F786300D56775 /* MMChatController.swift */; };
+		34912D7C224F786400D56775 /* MMChatController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 34912D19224F786300D56775 /* MMChatController.xib */; };
+		34912D7D224F786400D56775 /* ChatConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34912D1B224F786300D56775 /* ChatConstant.swift */; };
+		34912D7E224F786400D56775 /* CaseImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34912D1F224F786300D56775 /* CaseImageCell.swift */; };
+		34912D7F224F786400D56775 /* CaseImageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 34912D20224F786300D56775 /* CaseImageCell.xib */; };
+		34912D80224F786400D56775 /* CreateCaseKeywordCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34912D21224F786300D56775 /* CreateCaseKeywordCell.swift */; };
+		34912D81224F786400D56775 /* CreateCaseKeywordCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 34912D22224F786300D56775 /* CreateCaseKeywordCell.xib */; };
+		34912D82224F786400D56775 /* CreateCaseMediaCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34912D23224F786300D56775 /* CreateCaseMediaCell.swift */; };
+		34912D83224F786400D56775 /* CreateCaseMediaCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 34912D24224F786300D56775 /* CreateCaseMediaCell.xib */; };
+		34912D84224F786400D56775 /* CreateCaseTextViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34912D25224F786300D56775 /* CreateCaseTextViewCell.swift */; };
+		34912D85224F786400D56775 /* CreateCaseTextViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 34912D26224F786300D56775 /* CreateCaseTextViewCell.xib */; };
+		34912D86224F786400D56775 /* CreateCaseTitleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34912D27224F786300D56775 /* CreateCaseTitleCell.swift */; };
+		34912D87224F786400D56775 /* CreateCaseTitleCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 34912D28224F786300D56775 /* CreateCaseTitleCell.xib */; };
+		34912D88224F786400D56775 /* GroupLinkCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34912D2A224F786300D56775 /* GroupLinkCell.swift */; };
+		34912D89224F786400D56775 /* GroupLinkCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 34912D2B224F786300D56775 /* GroupLinkCell.xib */; };
+		34912D8A224F786400D56775 /* GroupLinkMainCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34912D2C224F786300D56775 /* GroupLinkMainCell.swift */; };
+		34912D8B224F786400D56775 /* GroupLinkMainCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 34912D2D224F786300D56775 /* GroupLinkMainCell.xib */; };
+		34912D8C224F786400D56775 /* CreateCaseVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34912D2E224F786300D56775 /* CreateCaseVC.swift */; };
+		34912D8D224F786400D56775 /* CreateCaseVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 34912D2F224F786300D56775 /* CreateCaseVC.xib */; };
+		34912D8E224F786400D56775 /* ChatAttachmentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34912D31224F786300D56775 /* ChatAttachmentModel.swift */; };
+		34912D8F224F786400D56775 /* ChatThreadModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34912D32224F786300D56775 /* ChatThreadModel.swift */; };
+		34912D90224F786400D56775 /* GroupListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34912D33224F786300D56775 /* GroupListModel.swift */; };
+		34912D91224F786400D56775 /* LastMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34912D34224F786300D56775 /* LastMessage.swift */; };
+		34912D92224F786400D56775 /* MessageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34912D35224F786300D56775 /* MessageModel.swift */; };
+		34912D93224F786400D56775 /* ParticipantModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34912D36224F786300D56775 /* ParticipantModel.swift */; };
+		34912D94224F786400D56775 /* PostByModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34912D37224F786300D56775 /* PostByModel.swift */; };
+		34912D95224F786400D56775 /* DocumentPickerHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34912D39224F786300D56775 /* DocumentPickerHelper.swift */; };
+		34912D96224F786400D56775 /* UploadDocumentsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34912D3A224F786300D56775 /* UploadDocumentsModel.swift */; };
+		34912D97224F786400D56775 /* DownloadManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34912D3B224F786300D56775 /* DownloadManager.swift */; };
+		34912D98224F786400D56775 /* ExtensionClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34912D3C224F786300D56775 /* ExtensionClass.swift */; };
+		34912D99224F786400D56775 /* GroupDetailTabCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34912D3F224F786300D56775 /* GroupDetailTabCell.swift */; };
+		34912D9A224F786400D56775 /* GroupDetailTabCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 34912D40224F786300D56775 /* GroupDetailTabCell.xib */; };
+		34912D9B224F786400D56775 /* GroupDetailTabTitleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34912D41224F786300D56775 /* GroupDetailTabTitleCell.swift */; };
+		34912D9C224F786400D56775 /* GroupDetailTabTitleCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 34912D42224F786300D56775 /* GroupDetailTabTitleCell.xib */; };
+		34912D9D224F786400D56775 /* GroupDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34912D43224F786300D56775 /* GroupDetailVC.swift */; };
+		34912D9E224F786400D56775 /* GroupDetailVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 34912D44224F786300D56775 /* GroupDetailVC.xib */; };
+		34912D9F224F786400D56775 /* AddMessageWallVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34912D47224F786300D56775 /* AddMessageWallVC.swift */; };
+		34912DA0224F786400D56775 /* AddMessageWallVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 34912D48224F786300D56775 /* AddMessageWallVC.xib */; };
+		34912DA1224F786400D56775 /* GroupListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34912D4B224F786300D56775 /* GroupListCell.swift */; };
+		34912DA2224F786400D56775 /* GroupListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 34912D4C224F786300D56775 /* GroupListCell.xib */; };
+		34912DA3224F786400D56775 /* SelfieCornerListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34912D4E224F786300D56775 /* SelfieCornerListCell.swift */; };
+		34912DA4224F786400D56775 /* SelfieCornerListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 34912D4F224F786300D56775 /* SelfieCornerListCell.xib */; };
+		34912DA5224F786400D56775 /* GroupListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34912D50224F786300D56775 /* GroupListVC.swift */; };
+		34912DA6224F786400D56775 /* GroupListVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 34912D51224F786300D56775 /* GroupListVC.xib */; };
+		34912DA7224F786400D56775 /* SelfieCornerDetailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34912D54224F786300D56775 /* SelfieCornerDetailCell.swift */; };
+		34912DA8224F786400D56775 /* SelfieCornerDetailCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 34912D55224F786300D56775 /* SelfieCornerDetailCell.xib */; };
+		34912DA9224F786400D56775 /* SelfieCornerDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34912D56224F786300D56775 /* SelfieCornerDetailVC.swift */; };
+		34912DAA224F786400D56775 /* SelfieCornerDetailVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 34912D57224F786300D56775 /* SelfieCornerDetailVC.xib */; };
+		34912DAB224F786400D56775 /* ChatManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34912D59224F786300D56775 /* ChatManager.swift */; };
+		34912DAC224F786400D56775 /* CreateGroupHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34912D5A224F786300D56775 /* CreateGroupHelper.swift */; };
+		34912DAD224F786400D56775 /* ImageCropCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34912D5D224F786300D56775 /* ImageCropCell.swift */; };
+		34912DAE224F786400D56775 /* ImageCropCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 34912D5E224F786300D56775 /* ImageCropCell.xib */; };
+		34912DAF224F786400D56775 /* ImagecropVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34912D5F224F786300D56775 /* ImagecropVC.swift */; };
+		34912DB0224F786400D56775 /* ImagecropVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 34912D60224F786300D56775 /* ImagecropVC.xib */; };
+		34912DB1224F786400D56775 /* SupportListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34912D62224F786300D56775 /* SupportListVC.swift */; };
+		34912DB2224F786400D56775 /* SupportListVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 34912D63224F786300D56775 /* SupportListVC.xib */; };
+		34912DB3224F786400D56775 /* HPGrowingTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 34912D66224F786300D56775 /* HPGrowingTextView.m */; };
+		34912DB4224F786400D56775 /* HPTextViewInternal.m in Sources */ = {isa = PBXBuildFile; fileRef = 34912D68224F786300D56775 /* HPTextViewInternal.m */; };
+		34912DB5224F786400D56775 /* UploadManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34912D69224F786300D56775 /* UploadManager.swift */; };
+		34912DB6224F786400D56775 /* videoThumb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34912D6A224F786300D56775 /* videoThumb.swift */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
@@ -28,6 +104,84 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		34912D02224F786300D56775 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		34912D03224F786300D56775 /* ApplicationData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApplicationData.swift; sourceTree = "<group>"; };
+		34912D07224F786300D56775 /* MMChatAttachmentInCommingCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MMChatAttachmentInCommingCell.swift; sourceTree = "<group>"; };
+		34912D08224F786300D56775 /* MMChatAttachmentInCommingCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MMChatAttachmentInCommingCell.xib; sourceTree = "<group>"; };
+		34912D09224F786300D56775 /* MMChatInCommingCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MMChatInCommingCell.swift; sourceTree = "<group>"; };
+		34912D0A224F786300D56775 /* MMChatInCommingCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MMChatInCommingCell.xib; sourceTree = "<group>"; };
+		34912D0C224F786300D56775 /* MMChatLogCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MMChatLogCell.swift; sourceTree = "<group>"; };
+		34912D0D224F786300D56775 /* MMChatLogCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MMChatLogCell.xib; sourceTree = "<group>"; };
+		34912D0E224F786300D56775 /* MMChatCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MMChatCell.swift; sourceTree = "<group>"; };
+		34912D0F224F786300D56775 /* MMChatCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MMChatCell.xib; sourceTree = "<group>"; };
+		34912D11224F786300D56775 /* MMChatOutAttachmentOutGoingCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MMChatOutAttachmentOutGoingCell.swift; sourceTree = "<group>"; };
+		34912D12224F786300D56775 /* MMChatOutAttachmentOutGoingCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MMChatOutAttachmentOutGoingCell.xib; sourceTree = "<group>"; };
+		34912D13224F786300D56775 /* MMChatOutGoingCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MMChatOutGoingCell.swift; sourceTree = "<group>"; };
+		34912D14224F786300D56775 /* MMChatOutGoingCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MMChatOutGoingCell.xib; sourceTree = "<group>"; };
+		34912D16224F786300D56775 /* SelfieCornerCommentCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelfieCornerCommentCell.swift; sourceTree = "<group>"; };
+		34912D17224F786300D56775 /* SelfieCornerCommentCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SelfieCornerCommentCell.xib; sourceTree = "<group>"; };
+		34912D18224F786300D56775 /* MMChatController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MMChatController.swift; sourceTree = "<group>"; };
+		34912D19224F786300D56775 /* MMChatController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MMChatController.xib; sourceTree = "<group>"; };
+		34912D1B224F786300D56775 /* ChatConstant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatConstant.swift; sourceTree = "<group>"; };
+		34912D1F224F786300D56775 /* CaseImageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CaseImageCell.swift; sourceTree = "<group>"; };
+		34912D20224F786300D56775 /* CaseImageCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CaseImageCell.xib; sourceTree = "<group>"; };
+		34912D21224F786300D56775 /* CreateCaseKeywordCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateCaseKeywordCell.swift; sourceTree = "<group>"; };
+		34912D22224F786300D56775 /* CreateCaseKeywordCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CreateCaseKeywordCell.xib; sourceTree = "<group>"; };
+		34912D23224F786300D56775 /* CreateCaseMediaCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateCaseMediaCell.swift; sourceTree = "<group>"; };
+		34912D24224F786300D56775 /* CreateCaseMediaCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CreateCaseMediaCell.xib; sourceTree = "<group>"; };
+		34912D25224F786300D56775 /* CreateCaseTextViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateCaseTextViewCell.swift; sourceTree = "<group>"; };
+		34912D26224F786300D56775 /* CreateCaseTextViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CreateCaseTextViewCell.xib; sourceTree = "<group>"; };
+		34912D27224F786300D56775 /* CreateCaseTitleCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateCaseTitleCell.swift; sourceTree = "<group>"; };
+		34912D28224F786300D56775 /* CreateCaseTitleCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CreateCaseTitleCell.xib; sourceTree = "<group>"; };
+		34912D2A224F786300D56775 /* GroupLinkCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupLinkCell.swift; sourceTree = "<group>"; };
+		34912D2B224F786300D56775 /* GroupLinkCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GroupLinkCell.xib; sourceTree = "<group>"; };
+		34912D2C224F786300D56775 /* GroupLinkMainCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupLinkMainCell.swift; sourceTree = "<group>"; };
+		34912D2D224F786300D56775 /* GroupLinkMainCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GroupLinkMainCell.xib; sourceTree = "<group>"; };
+		34912D2E224F786300D56775 /* CreateCaseVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateCaseVC.swift; sourceTree = "<group>"; };
+		34912D2F224F786300D56775 /* CreateCaseVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CreateCaseVC.xib; sourceTree = "<group>"; };
+		34912D31224F786300D56775 /* ChatAttachmentModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatAttachmentModel.swift; sourceTree = "<group>"; };
+		34912D32224F786300D56775 /* ChatThreadModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatThreadModel.swift; sourceTree = "<group>"; };
+		34912D33224F786300D56775 /* GroupListModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupListModel.swift; sourceTree = "<group>"; };
+		34912D34224F786300D56775 /* LastMessage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LastMessage.swift; sourceTree = "<group>"; };
+		34912D35224F786300D56775 /* MessageModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageModel.swift; sourceTree = "<group>"; };
+		34912D36224F786300D56775 /* ParticipantModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParticipantModel.swift; sourceTree = "<group>"; };
+		34912D37224F786300D56775 /* PostByModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostByModel.swift; sourceTree = "<group>"; };
+		34912D39224F786300D56775 /* DocumentPickerHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DocumentPickerHelper.swift; sourceTree = "<group>"; };
+		34912D3A224F786300D56775 /* UploadDocumentsModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UploadDocumentsModel.swift; sourceTree = "<group>"; };
+		34912D3B224F786300D56775 /* DownloadManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DownloadManager.swift; sourceTree = "<group>"; };
+		34912D3C224F786300D56775 /* ExtensionClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExtensionClass.swift; sourceTree = "<group>"; };
+		34912D3F224F786300D56775 /* GroupDetailTabCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupDetailTabCell.swift; sourceTree = "<group>"; };
+		34912D40224F786300D56775 /* GroupDetailTabCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GroupDetailTabCell.xib; sourceTree = "<group>"; };
+		34912D41224F786300D56775 /* GroupDetailTabTitleCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupDetailTabTitleCell.swift; sourceTree = "<group>"; };
+		34912D42224F786300D56775 /* GroupDetailTabTitleCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GroupDetailTabTitleCell.xib; sourceTree = "<group>"; };
+		34912D43224F786300D56775 /* GroupDetailVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupDetailVC.swift; sourceTree = "<group>"; };
+		34912D44224F786300D56775 /* GroupDetailVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GroupDetailVC.xib; sourceTree = "<group>"; };
+		34912D47224F786300D56775 /* AddMessageWallVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddMessageWallVC.swift; sourceTree = "<group>"; };
+		34912D48224F786300D56775 /* AddMessageWallVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddMessageWallVC.xib; sourceTree = "<group>"; };
+		34912D4B224F786300D56775 /* GroupListCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupListCell.swift; sourceTree = "<group>"; };
+		34912D4C224F786300D56775 /* GroupListCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GroupListCell.xib; sourceTree = "<group>"; };
+		34912D4E224F786300D56775 /* SelfieCornerListCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelfieCornerListCell.swift; sourceTree = "<group>"; };
+		34912D4F224F786300D56775 /* SelfieCornerListCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SelfieCornerListCell.xib; sourceTree = "<group>"; };
+		34912D50224F786300D56775 /* GroupListVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupListVC.swift; sourceTree = "<group>"; };
+		34912D51224F786300D56775 /* GroupListVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GroupListVC.xib; sourceTree = "<group>"; };
+		34912D54224F786300D56775 /* SelfieCornerDetailCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelfieCornerDetailCell.swift; sourceTree = "<group>"; };
+		34912D55224F786300D56775 /* SelfieCornerDetailCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SelfieCornerDetailCell.xib; sourceTree = "<group>"; };
+		34912D56224F786300D56775 /* SelfieCornerDetailVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelfieCornerDetailVC.swift; sourceTree = "<group>"; };
+		34912D57224F786300D56775 /* SelfieCornerDetailVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SelfieCornerDetailVC.xib; sourceTree = "<group>"; };
+		34912D59224F786300D56775 /* ChatManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatManager.swift; sourceTree = "<group>"; };
+		34912D5A224F786300D56775 /* CreateGroupHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateGroupHelper.swift; sourceTree = "<group>"; };
+		34912D5D224F786300D56775 /* ImageCropCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageCropCell.swift; sourceTree = "<group>"; };
+		34912D5E224F786300D56775 /* ImageCropCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ImageCropCell.xib; sourceTree = "<group>"; };
+		34912D5F224F786300D56775 /* ImagecropVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImagecropVC.swift; sourceTree = "<group>"; };
+		34912D60224F786300D56775 /* ImagecropVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ImagecropVC.xib; sourceTree = "<group>"; };
+		34912D62224F786300D56775 /* SupportListVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SupportListVC.swift; sourceTree = "<group>"; };
+		34912D63224F786300D56775 /* SupportListVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SupportListVC.xib; sourceTree = "<group>"; };
+		34912D65224F786300D56775 /* HPGrowingTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HPGrowingTextView.h; sourceTree = "<group>"; };
+		34912D66224F786300D56775 /* HPGrowingTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HPGrowingTextView.m; sourceTree = "<group>"; };
+		34912D67224F786300D56775 /* HPTextViewInternal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HPTextViewInternal.h; sourceTree = "<group>"; };
+		34912D68224F786300D56775 /* HPTextViewInternal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HPTextViewInternal.m; sourceTree = "<group>"; };
+		34912D69224F786300D56775 /* UploadManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UploadManager.swift; sourceTree = "<group>"; };
+		34912D6A224F786300D56775 /* videoThumb.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = videoThumb.swift; sourceTree = "<group>"; };
 		409B3DBB03E47B527F413E42 /* Pods_samplePod_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_samplePod_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5406161382C41A4A6CD97494 /* Pods-samplePod_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-samplePod_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-samplePod_Example/Pods-samplePod_Example.release.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* samplePod_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = samplePod_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -80,6 +234,307 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		34912D01224F786300D56775 /* Chat */ = {
+			isa = PBXGroup;
+			children = (
+				34912D02224F786300D56775 /* AppDelegate.swift */,
+				34912D03224F786300D56775 /* ApplicationData.swift */,
+				34912D04224F786300D56775 /* Chat Controller */,
+				34912D1A224F786300D56775 /* Constant */,
+				34912D1C224F786300D56775 /* Create Case */,
+				34912D30224F786300D56775 /* DataBase Model */,
+				34912D38224F786300D56775 /* Docuemnt */,
+				34912D3B224F786300D56775 /* DownloadManager.swift */,
+				34912D3C224F786300D56775 /* ExtensionClass.swift */,
+				34912D3D224F786300D56775 /* Group Detail */,
+				34912D45224F786300D56775 /* Group List */,
+				34912D58224F786300D56775 /* Helper */,
+				34912D5B224F786300D56775 /* ImageCrop */,
+				34912D61224F786300D56775 /* Support List */,
+				34912D64224F786300D56775 /* Text View */,
+				34912D69224F786300D56775 /* UploadManager.swift */,
+				34912D6A224F786300D56775 /* videoThumb.swift */,
+			);
+			path = Chat;
+			sourceTree = "<group>";
+		};
+		34912D04224F786300D56775 /* Chat Controller */ = {
+			isa = PBXGroup;
+			children = (
+				34912D05224F786300D56775 /* Cell */,
+				34912D18224F786300D56775 /* MMChatController.swift */,
+				34912D19224F786300D56775 /* MMChatController.xib */,
+			);
+			path = "Chat Controller";
+			sourceTree = "<group>";
+		};
+		34912D05224F786300D56775 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				34912D06224F786300D56775 /* Incomming */,
+				34912D0B224F786300D56775 /* Log */,
+				34912D0E224F786300D56775 /* MMChatCell.swift */,
+				34912D0F224F786300D56775 /* MMChatCell.xib */,
+				34912D10224F786300D56775 /* OutGoing */,
+				34912D15224F786300D56775 /* SelfieCornerCommentCell */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		34912D06224F786300D56775 /* Incomming */ = {
+			isa = PBXGroup;
+			children = (
+				34912D07224F786300D56775 /* MMChatAttachmentInCommingCell.swift */,
+				34912D08224F786300D56775 /* MMChatAttachmentInCommingCell.xib */,
+				34912D09224F786300D56775 /* MMChatInCommingCell.swift */,
+				34912D0A224F786300D56775 /* MMChatInCommingCell.xib */,
+			);
+			path = Incomming;
+			sourceTree = "<group>";
+		};
+		34912D0B224F786300D56775 /* Log */ = {
+			isa = PBXGroup;
+			children = (
+				34912D0C224F786300D56775 /* MMChatLogCell.swift */,
+				34912D0D224F786300D56775 /* MMChatLogCell.xib */,
+			);
+			path = Log;
+			sourceTree = "<group>";
+		};
+		34912D10224F786300D56775 /* OutGoing */ = {
+			isa = PBXGroup;
+			children = (
+				34912D11224F786300D56775 /* MMChatOutAttachmentOutGoingCell.swift */,
+				34912D12224F786300D56775 /* MMChatOutAttachmentOutGoingCell.xib */,
+				34912D13224F786300D56775 /* MMChatOutGoingCell.swift */,
+				34912D14224F786300D56775 /* MMChatOutGoingCell.xib */,
+			);
+			path = OutGoing;
+			sourceTree = "<group>";
+		};
+		34912D15224F786300D56775 /* SelfieCornerCommentCell */ = {
+			isa = PBXGroup;
+			children = (
+				34912D16224F786300D56775 /* SelfieCornerCommentCell.swift */,
+				34912D17224F786300D56775 /* SelfieCornerCommentCell.xib */,
+			);
+			path = SelfieCornerCommentCell;
+			sourceTree = "<group>";
+		};
+		34912D1A224F786300D56775 /* Constant */ = {
+			isa = PBXGroup;
+			children = (
+				34912D1B224F786300D56775 /* ChatConstant.swift */,
+			);
+			path = Constant;
+			sourceTree = "<group>";
+		};
+		34912D1C224F786300D56775 /* Create Case */ = {
+			isa = PBXGroup;
+			children = (
+				34912D1D224F786300D56775 /* Cell */,
+				34912D2E224F786300D56775 /* CreateCaseVC.swift */,
+				34912D2F224F786300D56775 /* CreateCaseVC.xib */,
+			);
+			path = "Create Case";
+			sourceTree = "<group>";
+		};
+		34912D1D224F786300D56775 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				34912D1E224F786300D56775 /* CollectionCell */,
+				34912D21224F786300D56775 /* CreateCaseKeywordCell.swift */,
+				34912D22224F786300D56775 /* CreateCaseKeywordCell.xib */,
+				34912D23224F786300D56775 /* CreateCaseMediaCell.swift */,
+				34912D24224F786300D56775 /* CreateCaseMediaCell.xib */,
+				34912D25224F786300D56775 /* CreateCaseTextViewCell.swift */,
+				34912D26224F786300D56775 /* CreateCaseTextViewCell.xib */,
+				34912D27224F786300D56775 /* CreateCaseTitleCell.swift */,
+				34912D28224F786300D56775 /* CreateCaseTitleCell.xib */,
+				34912D29224F786300D56775 /* Link */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		34912D1E224F786300D56775 /* CollectionCell */ = {
+			isa = PBXGroup;
+			children = (
+				34912D1F224F786300D56775 /* CaseImageCell.swift */,
+				34912D20224F786300D56775 /* CaseImageCell.xib */,
+			);
+			path = CollectionCell;
+			sourceTree = "<group>";
+		};
+		34912D29224F786300D56775 /* Link */ = {
+			isa = PBXGroup;
+			children = (
+				34912D2A224F786300D56775 /* GroupLinkCell.swift */,
+				34912D2B224F786300D56775 /* GroupLinkCell.xib */,
+				34912D2C224F786300D56775 /* GroupLinkMainCell.swift */,
+				34912D2D224F786300D56775 /* GroupLinkMainCell.xib */,
+			);
+			path = Link;
+			sourceTree = "<group>";
+		};
+		34912D30224F786300D56775 /* DataBase Model */ = {
+			isa = PBXGroup;
+			children = (
+				34912D31224F786300D56775 /* ChatAttachmentModel.swift */,
+				34912D32224F786300D56775 /* ChatThreadModel.swift */,
+				34912D33224F786300D56775 /* GroupListModel.swift */,
+				34912D34224F786300D56775 /* LastMessage.swift */,
+				34912D35224F786300D56775 /* MessageModel.swift */,
+				34912D36224F786300D56775 /* ParticipantModel.swift */,
+				34912D37224F786300D56775 /* PostByModel.swift */,
+			);
+			path = "DataBase Model";
+			sourceTree = "<group>";
+		};
+		34912D38224F786300D56775 /* Docuemnt */ = {
+			isa = PBXGroup;
+			children = (
+				34912D39224F786300D56775 /* DocumentPickerHelper.swift */,
+				34912D3A224F786300D56775 /* UploadDocumentsModel.swift */,
+			);
+			path = Docuemnt;
+			sourceTree = "<group>";
+		};
+		34912D3D224F786300D56775 /* Group Detail */ = {
+			isa = PBXGroup;
+			children = (
+				34912D3E224F786300D56775 /* Cell */,
+				34912D43224F786300D56775 /* GroupDetailVC.swift */,
+				34912D44224F786300D56775 /* GroupDetailVC.xib */,
+			);
+			path = "Group Detail";
+			sourceTree = "<group>";
+		};
+		34912D3E224F786300D56775 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				34912D3F224F786300D56775 /* GroupDetailTabCell.swift */,
+				34912D40224F786300D56775 /* GroupDetailTabCell.xib */,
+				34912D41224F786300D56775 /* GroupDetailTabTitleCell.swift */,
+				34912D42224F786300D56775 /* GroupDetailTabTitleCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		34912D45224F786300D56775 /* Group List */ = {
+			isa = PBXGroup;
+			children = (
+				34912D46224F786300D56775 /* AddMsgWall */,
+				34912D49224F786300D56775 /* Cell */,
+				34912D50224F786300D56775 /* GroupListVC.swift */,
+				34912D51224F786300D56775 /* GroupListVC.xib */,
+				34912D52224F786300D56775 /* SelfieCornerDetail */,
+			);
+			path = "Group List";
+			sourceTree = "<group>";
+		};
+		34912D46224F786300D56775 /* AddMsgWall */ = {
+			isa = PBXGroup;
+			children = (
+				34912D47224F786300D56775 /* AddMessageWallVC.swift */,
+				34912D48224F786300D56775 /* AddMessageWallVC.xib */,
+			);
+			path = AddMsgWall;
+			sourceTree = "<group>";
+		};
+		34912D49224F786300D56775 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				34912D4A224F786300D56775 /* New Group */,
+				34912D4D224F786300D56775 /* SelfieCornerListCell */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		34912D4A224F786300D56775 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				34912D4B224F786300D56775 /* GroupListCell.swift */,
+				34912D4C224F786300D56775 /* GroupListCell.xib */,
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		34912D4D224F786300D56775 /* SelfieCornerListCell */ = {
+			isa = PBXGroup;
+			children = (
+				34912D4E224F786300D56775 /* SelfieCornerListCell.swift */,
+				34912D4F224F786300D56775 /* SelfieCornerListCell.xib */,
+			);
+			path = SelfieCornerListCell;
+			sourceTree = "<group>";
+		};
+		34912D52224F786300D56775 /* SelfieCornerDetail */ = {
+			isa = PBXGroup;
+			children = (
+				34912D53224F786300D56775 /* Cell */,
+				34912D56224F786300D56775 /* SelfieCornerDetailVC.swift */,
+				34912D57224F786300D56775 /* SelfieCornerDetailVC.xib */,
+			);
+			path = SelfieCornerDetail;
+			sourceTree = "<group>";
+		};
+		34912D53224F786300D56775 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				34912D54224F786300D56775 /* SelfieCornerDetailCell.swift */,
+				34912D55224F786300D56775 /* SelfieCornerDetailCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		34912D58224F786300D56775 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				34912D59224F786300D56775 /* ChatManager.swift */,
+				34912D5A224F786300D56775 /* CreateGroupHelper.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		34912D5B224F786300D56775 /* ImageCrop */ = {
+			isa = PBXGroup;
+			children = (
+				34912D5C224F786300D56775 /* Cell */,
+				34912D5F224F786300D56775 /* ImagecropVC.swift */,
+				34912D60224F786300D56775 /* ImagecropVC.xib */,
+			);
+			path = ImageCrop;
+			sourceTree = "<group>";
+		};
+		34912D5C224F786300D56775 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				34912D5D224F786300D56775 /* ImageCropCell.swift */,
+				34912D5E224F786300D56775 /* ImageCropCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		34912D61224F786300D56775 /* Support List */ = {
+			isa = PBXGroup;
+			children = (
+				34912D62224F786300D56775 /* SupportListVC.swift */,
+				34912D63224F786300D56775 /* SupportListVC.xib */,
+			);
+			path = "Support List";
+			sourceTree = "<group>";
+		};
+		34912D64224F786300D56775 /* Text View */ = {
+			isa = PBXGroup;
+			children = (
+				34912D65224F786300D56775 /* HPGrowingTextView.h */,
+				34912D66224F786300D56775 /* HPGrowingTextView.m */,
+				34912D67224F786300D56775 /* HPTextViewInternal.h */,
+				34912D68224F786300D56775 /* HPTextViewInternal.m */,
+			);
+			path = "Text View";
+			sourceTree = "<group>";
+		};
 		607FACC71AFB9204008FA782 = {
 			isa = PBXGroup;
 			children = (
@@ -104,6 +559,7 @@
 		607FACD21AFB9204008FA782 /* Example for samplePod */ = {
 			isa = PBXGroup;
 			children = (
+				34912D01224F786300D56775 /* Chat */,
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
@@ -245,9 +701,37 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				34912DB0224F786400D56775 /* ImagecropVC.xib in Resources */,
+				34912D7C224F786400D56775 /* MMChatController.xib in Resources */,
+				34912D7A224F786400D56775 /* SelfieCornerCommentCell.xib in Resources */,
+				34912D83224F786400D56775 /* CreateCaseMediaCell.xib in Resources */,
+				34912DAE224F786400D56775 /* ImageCropCell.xib in Resources */,
+				34912D72224F786400D56775 /* MMChatLogCell.xib in Resources */,
 				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
+				34912D76224F786400D56775 /* MMChatOutAttachmentOutGoingCell.xib in Resources */,
+				34912D89224F786400D56775 /* GroupLinkCell.xib in Resources */,
+				34912D85224F786400D56775 /* CreateCaseTextViewCell.xib in Resources */,
+				34912D70224F786400D56775 /* MMChatInCommingCell.xib in Resources */,
+				34912DAA224F786400D56775 /* SelfieCornerDetailVC.xib in Resources */,
+				34912D9A224F786400D56775 /* GroupDetailTabCell.xib in Resources */,
+				34912DB2224F786400D56775 /* SupportListVC.xib in Resources */,
+				34912D74224F786400D56775 /* MMChatCell.xib in Resources */,
+				34912D87224F786400D56775 /* CreateCaseTitleCell.xib in Resources */,
+				34912D6E224F786400D56775 /* MMChatAttachmentInCommingCell.xib in Resources */,
+				34912D8D224F786400D56775 /* CreateCaseVC.xib in Resources */,
+				34912D81224F786400D56775 /* CreateCaseKeywordCell.xib in Resources */,
+				34912D7F224F786400D56775 /* CaseImageCell.xib in Resources */,
+				34912DA8224F786400D56775 /* SelfieCornerDetailCell.xib in Resources */,
+				34912D9E224F786400D56775 /* GroupDetailVC.xib in Resources */,
+				34912D78224F786400D56775 /* MMChatOutGoingCell.xib in Resources */,
+				34912DA2224F786400D56775 /* GroupListCell.xib in Resources */,
+				34912D8B224F786400D56775 /* GroupLinkMainCell.xib in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
+				34912DA6224F786400D56775 /* GroupListVC.xib in Resources */,
+				34912DA4224F786400D56775 /* SelfieCornerListCell.xib in Resources */,
+				34912D9C224F786400D56775 /* GroupDetailTabTitleCell.xib in Resources */,
+				34912DA0224F786400D56775 /* AddMessageWallVC.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -322,8 +806,56 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				34912D8E224F786400D56775 /* ChatAttachmentModel.swift in Sources */,
+				34912DAC224F786400D56775 /* CreateGroupHelper.swift in Sources */,
+				34912D9D224F786400D56775 /* GroupDetailVC.swift in Sources */,
+				34912D84224F786400D56775 /* CreateCaseTextViewCell.swift in Sources */,
+				34912D98224F786400D56775 /* ExtensionClass.swift in Sources */,
+				34912D94224F786400D56775 /* PostByModel.swift in Sources */,
+				34912DA1224F786400D56775 /* GroupListCell.swift in Sources */,
+				34912DA9224F786400D56775 /* SelfieCornerDetailVC.swift in Sources */,
+				34912D6B224F786400D56775 /* AppDelegate.swift in Sources */,
+				34912DAD224F786400D56775 /* ImageCropCell.swift in Sources */,
+				34912D93224F786400D56775 /* ParticipantModel.swift in Sources */,
+				34912D96224F786400D56775 /* UploadDocumentsModel.swift in Sources */,
+				34912D8C224F786400D56775 /* CreateCaseVC.swift in Sources */,
+				34912D75224F786400D56775 /* MMChatOutAttachmentOutGoingCell.swift in Sources */,
+				34912D71224F786400D56775 /* MMChatLogCell.swift in Sources */,
+				34912D80224F786400D56775 /* CreateCaseKeywordCell.swift in Sources */,
+				34912D9F224F786400D56775 /* AddMessageWallVC.swift in Sources */,
+				34912D82224F786400D56775 /* CreateCaseMediaCell.swift in Sources */,
+				34912D91224F786400D56775 /* LastMessage.swift in Sources */,
+				34912D8F224F786400D56775 /* ChatThreadModel.swift in Sources */,
+				34912D90224F786400D56775 /* GroupListModel.swift in Sources */,
+				34912D9B224F786400D56775 /* GroupDetailTabTitleCell.swift in Sources */,
+				34912D88224F786400D56775 /* GroupLinkCell.swift in Sources */,
+				34912D7E224F786400D56775 /* CaseImageCell.swift in Sources */,
+				34912DA5224F786400D56775 /* GroupListVC.swift in Sources */,
+				34912DAF224F786400D56775 /* ImagecropVC.swift in Sources */,
+				34912D99224F786400D56775 /* GroupDetailTabCell.swift in Sources */,
+				34912D7B224F786400D56775 /* MMChatController.swift in Sources */,
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
+				34912D8A224F786400D56775 /* GroupLinkMainCell.swift in Sources */,
+				34912DB1224F786400D56775 /* SupportListVC.swift in Sources */,
+				34912D6C224F786400D56775 /* ApplicationData.swift in Sources */,
+				34912DB5224F786400D56775 /* UploadManager.swift in Sources */,
+				34912D77224F786400D56775 /* MMChatOutGoingCell.swift in Sources */,
+				34912D7D224F786400D56775 /* ChatConstant.swift in Sources */,
+				34912D92224F786400D56775 /* MessageModel.swift in Sources */,
+				34912DB3224F786400D56775 /* HPGrowingTextView.m in Sources */,
+				34912DB4224F786400D56775 /* HPTextViewInternal.m in Sources */,
+				34912D6F224F786400D56775 /* MMChatInCommingCell.swift in Sources */,
+				34912D79224F786400D56775 /* SelfieCornerCommentCell.swift in Sources */,
+				34912D73224F786400D56775 /* MMChatCell.swift in Sources */,
+				34912D95224F786400D56775 /* DocumentPickerHelper.swift in Sources */,
+				34912D97224F786400D56775 /* DownloadManager.swift in Sources */,
+				34912DA7224F786400D56775 /* SelfieCornerDetailCell.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
+				34912D86224F786400D56775 /* CreateCaseTitleCell.swift in Sources */,
+				34912DB6224F786400D56775 /* videoThumb.swift in Sources */,
+				34912DAB224F786400D56775 /* ChatManager.swift in Sources */,
+				34912DA3224F786400D56775 /* SelfieCornerListCell.swift in Sources */,
+				34912D6D224F786400D56775 /* MMChatAttachmentInCommingCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

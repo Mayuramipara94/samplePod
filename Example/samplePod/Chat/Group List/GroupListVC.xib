@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="GroupListVC" customModule="ConferenceAssociationApp" customModuleProvider="target">
+            <connections>
+                <outlet property="btnBottom" destination="w3h-5X-JLm" id="WAl-hJ-I0M"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pf3-hC-GrP" customClass="MMButton" customModule="ConferenceAssociationApp" customModuleProvider="target">
+                    <rect key="frame" x="0.0" y="518" width="320" height="50"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="bU3-fr-qjz"/>
+                    </constraints>
+                    <state key="normal" title="Create Case"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="BackgroundColorKey" value="kThemeColor"/>
+                        <userDefinedRuntimeAttribute type="number" keyPath="FontType">
+                            <integer key="value" value="1"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <action selector="btnCreateCase_Click:" destination="-1" eventType="touchUpInside" id="XEN-M0-QQm"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="pf3-hC-GrP" secondAttribute="trailing" id="L5N-Py-owi"/>
+                <constraint firstItem="pf3-hC-GrP" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="iou-l7-zAr"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="pf3-hC-GrP" secondAttribute="bottom" id="w3h-5X-JLm"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <point key="canvasLocation" x="24" y="51"/>
+        </view>
+    </objects>
+</document>

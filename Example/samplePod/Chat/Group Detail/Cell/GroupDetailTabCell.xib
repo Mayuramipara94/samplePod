@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="365" id="KGk-i7-Jjw" customClass="GroupDetailTabCell" customModule="ConferenceAssociationApp" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="385" height="365"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="385" height="364.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" bounces="NO" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="QMS-CV-l07">
+                        <rect key="frame" x="16" y="16" width="353" height="100"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="100" id="UTH-7t-GMw"/>
+                        </constraints>
+                        <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="0.0" minimumInteritemSpacing="0.0" id="UeP-zz-0jB">
+                            <size key="itemSize" width="50" height="50"/>
+                            <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                            <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                            <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                        </collectionViewFlowLayout>
+                    </collectionView>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="W1i-ow-hBX" customClass="ShadowCard" customModule="ConferenceAssociationApp" customModuleProvider="target">
+                        <rect key="frame" x="16" y="132" width="353" height="216.5"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Xya-5d-cus">
+                                <rect key="frame" x="5" y="5" width="343" height="206.5"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="25" id="kvU-01-thi"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <dataDetectorType key="dataDetectorTypes" phoneNumber="YES" link="YES" address="YES"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Xya-5d-cus" firstAttribute="top" secondItem="W1i-ow-hBX" secondAttribute="top" constant="5" id="8yc-0P-8Os"/>
+                            <constraint firstItem="Xya-5d-cus" firstAttribute="leading" secondItem="W1i-ow-hBX" secondAttribute="leading" constant="5" id="USJ-FY-IEe"/>
+                            <constraint firstAttribute="bottom" secondItem="Xya-5d-cus" secondAttribute="bottom" constant="5" id="Yqw-YW-tGK"/>
+                            <constraint firstAttribute="trailing" secondItem="Xya-5d-cus" secondAttribute="trailing" constant="5" id="eUR-ZP-lzL"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="QMS-CV-l07" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="16" id="4RU-pT-OtY"/>
+                    <constraint firstItem="W1i-ow-hBX" firstAttribute="top" secondItem="QMS-CV-l07" secondAttribute="bottom" constant="16" id="MSS-tg-26y"/>
+                    <constraint firstItem="W1i-ow-hBX" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="YOb-eY-2vu"/>
+                    <constraint firstItem="QMS-CV-l07" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="aAC-qI-UbK"/>
+                    <constraint firstAttribute="trailing" secondItem="W1i-ow-hBX" secondAttribute="trailing" constant="16" id="p7t-0B-Heu"/>
+                    <constraint firstAttribute="bottom" secondItem="W1i-ow-hBX" secondAttribute="bottom" constant="16" id="sQn-Lm-VTp"/>
+                    <constraint firstAttribute="trailing" secondItem="QMS-CV-l07" secondAttribute="trailing" constant="16" id="z1i-Mn-xnl"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="collection_view" destination="QMS-CV-l07" id="ClR-FV-jgp"/>
+                <outlet property="lblDetails" destination="Xya-5d-cus" id="vrj-TB-dw1"/>
+            </connections>
+            <point key="canvasLocation" x="84.5" y="52.5"/>
+        </tableViewCell>
+    </objects>
+</document>

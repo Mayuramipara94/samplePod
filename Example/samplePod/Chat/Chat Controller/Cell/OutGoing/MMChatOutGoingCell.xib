@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="94" id="KGk-i7-Jjw" customClass="MMChatOutGoingCell" customModule="ConferenceAssociationApp" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="72"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="71.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bubble-outgoing" translatesAutoresizingMaskIntoConstraints="NO" id="Yjp-KC-Skh">
+                        <rect key="frame" x="188" y="8" width="100" height="60"/>
+                        <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="254" verticalCompressionResistancePriority="751" text="Sender Name" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="D3g-tV-6hq">
+                        <rect key="frame" x="194.5" y="15" width="82.5" height="16"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="width" relation="lessThanOrEqual" constant="178" id="zWD-Mh-jfs"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <color key="textColor" red="0.10269525810000001" green="0.36675551969999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="751" text="Message" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="czY-3Q-gsE">
+                        <rect key="frame" x="194.5" y="35" width="82.5" height="14.5"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="width" relation="lessThanOrEqual" constant="178" id="vq7-kz-vlk"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" red="0.22687975890000001" green="0.22687975890000001" blue="0.22687975890000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="11:08 AM" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rSe-Mv-HPt">
+                        <rect key="frame" x="211" y="54" width="48.5" height="10.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_sent_Message" translatesAutoresizingMaskIntoConstraints="NO" id="n1R-En-VGk">
+                        <rect key="frame" x="263" y="50" width="15" height="15"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="15" id="MN6-bZ-znv"/>
+                            <constraint firstAttribute="width" constant="15" id="oE4-M0-aAV"/>
+                        </constraints>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="userChat" translatesAutoresizingMaskIntoConstraints="NO" id="Aef-uz-CQ5">
+                        <rect key="frame" x="290" y="45" width="25" height="25"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="25" id="BYQ-xv-tPD"/>
+                            <constraint firstAttribute="height" constant="25" id="XwK-Wy-95L"/>
+                        </constraints>
+                    </imageView>
+                    <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8LC-8Q-t3L">
+                        <rect key="frame" x="292" y="23" width="20" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="k8Z-af-6X2"/>
+                            <constraint firstAttribute="width" constant="20" id="ubc-hj-lO9"/>
+                        </constraints>
+                        <state key="normal" image="unCheckChat"/>
+                        <state key="selected" image="checkChat"/>
+                    </button>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                <constraints>
+                    <constraint firstItem="czY-3Q-gsE" firstAttribute="top" secondItem="D3g-tV-6hq" secondAttribute="bottom" constant="4" id="4hj-3m-zgB"/>
+                    <constraint firstAttribute="bottom" secondItem="Yjp-KC-Skh" secondAttribute="bottom" constant="4" id="6d1-vp-hdX"/>
+                    <constraint firstItem="Yjp-KC-Skh" firstAttribute="width" secondItem="D3g-tV-6hq" secondAttribute="width" constant="17.5" id="8VJ-Nh-afW"/>
+                    <constraint firstAttribute="bottom" secondItem="rSe-Mv-HPt" secondAttribute="bottom" constant="7.5" id="8c5-cf-h5l"/>
+                    <constraint firstItem="D3g-tV-6hq" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="78" id="KRe-hQ-Avn"/>
+                    <constraint firstItem="rSe-Mv-HPt" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="Yjp-KC-Skh" secondAttribute="leading" constant="8" id="LAj-DS-HTq"/>
+                    <constraint firstItem="n1R-En-VGk" firstAttribute="leading" secondItem="rSe-Mv-HPt" secondAttribute="trailing" constant="3.5" id="LvJ-qR-Ebx"/>
+                    <constraint firstItem="Aef-uz-CQ5" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="Yjp-KC-Skh" secondAttribute="trailing" constant="2" id="Sg8-6m-R9p"/>
+                    <constraint firstAttribute="trailing" secondItem="Aef-uz-CQ5" secondAttribute="trailing" constant="5" id="TZI-sz-QvV"/>
+                    <constraint firstItem="D3g-tV-6hq" firstAttribute="trailing" secondItem="Yjp-KC-Skh" secondAttribute="trailing" constant="-11" id="bBu-PC-AZ1"/>
+                    <constraint firstItem="8LC-8Q-t3L" firstAttribute="leading" secondItem="Yjp-KC-Skh" secondAttribute="trailing" constant="4" id="bgh-dN-oLc"/>
+                    <constraint firstItem="rSe-Mv-HPt" firstAttribute="top" secondItem="czY-3Q-gsE" secondAttribute="bottom" constant="4.5" id="djW-Kl-cyA"/>
+                    <constraint firstAttribute="bottom" secondItem="Aef-uz-CQ5" secondAttribute="bottom" constant="2" id="e35-2K-op9"/>
+                    <constraint firstItem="D3g-tV-6hq" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="4" id="fpO-p6-Buw"/>
+                    <constraint firstItem="czY-3Q-gsE" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="78" id="iq9-88-Nga"/>
+                    <constraint firstItem="Aef-uz-CQ5" firstAttribute="top" secondItem="8LC-8Q-t3L" secondAttribute="bottom" constant="2" id="k2v-Y5-fRi"/>
+                    <constraint firstAttribute="trailing" secondItem="8LC-8Q-t3L" secondAttribute="trailing" constant="8" id="ltQ-yt-bHs"/>
+                    <constraint firstItem="n1R-En-VGk" firstAttribute="trailing" secondItem="Yjp-KC-Skh" secondAttribute="trailing" constant="-10" id="oeO-Yo-fjP"/>
+                    <constraint firstItem="czY-3Q-gsE" firstAttribute="trailing" secondItem="Yjp-KC-Skh" secondAttribute="trailing" constant="-11" id="qPL-P8-IRB"/>
+                    <constraint firstItem="Yjp-KC-Skh" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="8" id="qmn-fR-oxm"/>
+                    <constraint firstAttribute="bottom" secondItem="n1R-En-VGk" secondAttribute="bottom" constant="7" id="tc0-QZ-itV"/>
+                    <constraint firstItem="Yjp-KC-Skh" firstAttribute="width" secondItem="czY-3Q-gsE" secondAttribute="width" constant="17.5" id="xFK-Rr-Hy4"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <connections>
+                <outlet property="AvtarHeight" destination="XwK-Wy-95L" id="UEv-bc-ZsZ"/>
+                <outlet property="AvtarWidth" destination="BYQ-xv-tPD" id="et1-WV-i04"/>
+                <outlet property="ImgStatus" destination="n1R-En-VGk" id="PXe-2H-7Vk"/>
+                <outlet property="ImgUser" destination="Aef-uz-CQ5" id="PHX-Qv-Nuc"/>
+                <outlet property="LblMessage" destination="czY-3Q-gsE" id="wFT-VL-g8u"/>
+                <outlet property="LblSenderName" destination="D3g-tV-6hq" id="YFD-xV-sOe"/>
+                <outlet property="LblTime" destination="rSe-Mv-HPt" id="ZBH-UM-azg"/>
+                <outlet property="btnDelete" destination="8LC-8Q-t3L" id="04w-hg-srh"/>
+                <outlet property="deleteHeight" destination="k8Z-af-6X2" id="BOO-oN-ccr"/>
+                <outlet property="deleteWidth" destination="ubc-hj-lO9" id="Xcm-Av-fRj"/>
+            </connections>
+            <point key="canvasLocation" x="-447" y="-368"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="bubble-outgoing" width="37" height="33"/>
+        <image name="checkChat" width="24" height="24"/>
+        <image name="ic_sent_Message" width="13" height="13"/>
+        <image name="unCheckChat" width="25" height="25"/>
+        <image name="userChat" width="276" height="276"/>
+    </resources>
+</document>

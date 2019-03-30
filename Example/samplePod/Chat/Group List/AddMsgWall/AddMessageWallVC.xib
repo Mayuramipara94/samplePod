@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="AddMessageWallVC" customModule="ConferenceAssociationApp" customModuleProvider="target">
+            <connections>
+                <outlet property="imgPlaceholder" destination="jOQ-bV-C0D" id="Zo7-ku-NK8"/>
+                <outlet property="imgWallImage" destination="Gyt-0k-Izx" id="eWJ-TB-FE7"/>
+                <outlet property="txtMessage" destination="hJK-RM-cmH" id="5ZT-to-boi"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QD6-xz-A58">
+                    <rect key="frame" x="0.0" y="64" width="320" height="504"/>
+                    <subviews>
+                        <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="hJK-RM-cmH" customClass="UIPlaceHolderTextView">
+                            <rect key="frame" x="10" y="10" width="300" height="130"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="130" id="bxI-xy-MIO"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="string" keyPath="placeholder" value="Type your message here.."/>
+                            </userDefinedRuntimeAttributes>
+                        </textView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Gyt-0k-Izx">
+                            <rect key="frame" x="5" y="150" width="310" height="294"/>
+                            <color key="backgroundColor" red="0.85098039215686272" green="0.85098039215686272" blue="0.85098039215686272" alpha="1" colorSpace="calibratedRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="width" secondItem="Gyt-0k-Izx" secondAttribute="height" multiplier="73:73" priority="999" id="sYU-69-YI6"/>
+                            </constraints>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="camera" translatesAutoresizingMaskIntoConstraints="NO" id="jOQ-bV-C0D">
+                            <rect key="frame" x="135.5" y="272" width="50" height="50"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="50" id="F5Y-es-Ah8"/>
+                                <constraint firstAttribute="width" constant="50" id="gvj-we-Ubj"/>
+                            </constraints>
+                        </imageView>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fgP-nC-mcV">
+                            <rect key="frame" x="5" y="150" width="310" height="294"/>
+                            <connections>
+                                <action selector="btnCamera_Click:" destination="-1" eventType="touchUpInside" id="6wl-Tr-jZ6"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lle-XE-muA" customClass="MMButton" customModule="ConferenceAssociationApp" customModuleProvider="target">
+                            <rect key="frame" x="0.0" y="454" width="320" height="50"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="50" id="h1l-lb-Pra"/>
+                            </constraints>
+                            <state key="normal" title="POST">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </state>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="string" keyPath="FontName" value="kMediumFont"/>
+                                <userDefinedRuntimeAttribute type="number" keyPath="FontSize">
+                                    <real key="value" value="16"/>
+                                </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="string" keyPath="BackgroundColorKey" value="kThemeColor"/>
+                            </userDefinedRuntimeAttributes>
+                            <connections>
+                                <action selector="btnPost_Click:" destination="-1" eventType="touchUpInside" id="lRw-U7-wRK"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="hJK-RM-cmH" firstAttribute="top" secondItem="QD6-xz-A58" secondAttribute="top" constant="10" id="40G-sU-Q74"/>
+                        <constraint firstItem="Gyt-0k-Izx" firstAttribute="leading" secondItem="QD6-xz-A58" secondAttribute="leading" constant="5" id="7TY-5t-Qm1"/>
+                        <constraint firstAttribute="trailing" secondItem="lle-XE-muA" secondAttribute="trailing" id="BUc-i1-XdH"/>
+                        <constraint firstItem="hJK-RM-cmH" firstAttribute="leading" secondItem="QD6-xz-A58" secondAttribute="leading" constant="10" id="BtL-ZO-xu7"/>
+                        <constraint firstAttribute="trailing" secondItem="Gyt-0k-Izx" secondAttribute="trailing" constant="5" id="CHV-QB-uCH"/>
+                        <constraint firstItem="fgP-nC-mcV" firstAttribute="centerX" secondItem="Gyt-0k-Izx" secondAttribute="centerX" id="FOp-4n-hi8"/>
+                        <constraint firstItem="lle-XE-muA" firstAttribute="leading" secondItem="QD6-xz-A58" secondAttribute="leading" id="Gwu-Uf-eR9"/>
+                        <constraint firstItem="fgP-nC-mcV" firstAttribute="width" secondItem="Gyt-0k-Izx" secondAttribute="width" id="IPc-Jb-ZF1"/>
+                        <constraint firstItem="jOQ-bV-C0D" firstAttribute="centerY" secondItem="Gyt-0k-Izx" secondAttribute="centerY" id="Koz-iI-eb1"/>
+                        <constraint firstAttribute="bottom" secondItem="lle-XE-muA" secondAttribute="bottom" id="MHl-BK-Dab"/>
+                        <constraint firstItem="lle-XE-muA" firstAttribute="top" relation="greaterThanOrEqual" secondItem="Gyt-0k-Izx" secondAttribute="bottom" constant="10" id="O2V-4p-n62"/>
+                        <constraint firstAttribute="trailing" secondItem="hJK-RM-cmH" secondAttribute="trailing" constant="10" id="QdN-CO-fg1"/>
+                        <constraint firstItem="Gyt-0k-Izx" firstAttribute="top" secondItem="hJK-RM-cmH" secondAttribute="bottom" constant="10" id="eSp-l6-YAn"/>
+                        <constraint firstItem="jOQ-bV-C0D" firstAttribute="centerX" secondItem="Gyt-0k-Izx" secondAttribute="centerX" id="gXZ-Ku-Nlv"/>
+                        <constraint firstItem="fgP-nC-mcV" firstAttribute="centerY" secondItem="Gyt-0k-Izx" secondAttribute="centerY" id="kvv-v4-om1"/>
+                        <constraint firstItem="fgP-nC-mcV" firstAttribute="height" secondItem="Gyt-0k-Izx" secondAttribute="height" id="nfL-6Y-e2U"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="QD6-xz-A58" secondAttribute="bottom" id="132-g1-WZQ"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="QD6-xz-A58" secondAttribute="trailing" id="gei-ps-58y"/>
+                <constraint firstItem="QD6-xz-A58" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="kFJ-cm-lUN"/>
+                <constraint firstItem="QD6-xz-A58" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="kxa-E6-BtC"/>
+            </constraints>
+            <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="camera" width="22" height="22"/>
+    </resources>
+</document>
